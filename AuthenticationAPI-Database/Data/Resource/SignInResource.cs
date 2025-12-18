@@ -1,6 +1,5 @@
 ﻿namespace AuthenticationAPI_Database.Data.Resource
 {
-    public class SignInResource
-    {
-    }
+   public record class SignInResource(string correo,string contrasena)
+
 }

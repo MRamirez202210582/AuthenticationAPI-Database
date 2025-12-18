@@ -2,5 +2,7 @@
 {
     public interface IUsuarioCommandServices
     {
+        void InsertUsuario(string correo, string contrasena);
+
     }
 }

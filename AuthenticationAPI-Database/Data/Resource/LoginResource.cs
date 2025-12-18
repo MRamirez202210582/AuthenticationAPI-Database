@@ -1,6 +1,4 @@
 ﻿namespace AuthenticationAPI_Database.Data.Resource
 {
-    public class LoginResource
-    {
-    }
+    public record class LoginResource(string correo,string contrasena)
 }

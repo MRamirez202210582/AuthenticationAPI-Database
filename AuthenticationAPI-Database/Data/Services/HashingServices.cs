@@ -1,6 +1,9 @@
-﻿namespace AuthenticationAPI_Database.Data.Services
+﻿using AuthenticationAPI_Database.Data.Interface;
+
+namespace AuthenticationAPI_Database.Data.Services
 {
-    public class HashingServices
+    public class HashingServices:IHashingServices
     {
+
     }
 }
